@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+:root {
+	--background-color: #1B201D;
+	--title-color: #E7DAC2;
+	--subtitle-color: #494B4A;
+  --hightligt-subtitle-color: #919191;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  margin: 0;
+  font-size: 20px;
+  font-family: DIN, monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+footer {
+  min-height: 40px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  color: var(--subtitle-color);
+  margin-top: calc(100vh - 40px);
+  text-align: center;
+}
+
+ul, li {
+	display: inline-block;
+  list-style-type: none;
+}
+
+li {
+	margin: 5px 0;
+	display: block;
+}
+
+* {
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--title-color);
+  text-decoration: none !Important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+	position: fixed;
+	left: 1rem;
+	top: 1rem;
+	z-index: 999;
+}
+nav li {
+	line-height: 1.25em;
+}
+nav {
+	color: var(--title-color);
+}
+
+.subtitle {
+  color: var(--subtitle-color);
+}
+
+.hightligt-subtitle {
+  color: var(--hightligt-subtitle-color);
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url("/fonts/DIN/DINCondensed-Bold.ttf");
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+}

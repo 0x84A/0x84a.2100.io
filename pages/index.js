@@ -26,7 +26,12 @@ export default function Home() {
           <li><a href="/" target="_blank" rel="noopener noreferrer">/</a> <span className="subtitle">home</span></li>
           <li><a href="https://twitter.com/0x84A" target="_blank" rel="noopener noreferrer">@0x84A</a> <span className="subtitle">tweet</span></li>
           <li><a href="https://github.com/0x84A" target="_blank" rel="noopener noreferrer">code</a> <span className="subtitle">github/0x84A</span></li>
-          <li><a href="https://app.ens.domains/name/0x84a.eth" target="_blank" rel="noopener noreferrer">0x84A.eth</a> <span className="subtitle">ENS := <span className="hightligt-subtitle">0x84A</span>B05F09B5ad3a1de6941FBf29BdF77CC7E<span className="hightligt-subtitle">2100</span></span></li>
+          <li><a href="https://app.ens.domains/name/0x84a.eth" target="_blank" rel="noopener noreferrer">0x84A.eth</a>&nbsp;
+          <span className="subtitle">ENS&nbsp;
+            <span className="ethereum-symbol">♦︎</span>&nbsp;
+            <span className="hightligt-subtitle">0x84A</span>B05F09B5ad3a1de6941FBf29BdF77CC7E<span className="hightligt-subtitle">2100</span>
+          </span>
+          </li>
         </ul>
       </nav>
 

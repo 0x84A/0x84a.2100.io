@@ -77,6 +77,13 @@ nav {
   color: var(--hightligt-subtitle-color);
 }
 
+.ethereum-symbol {
+	font-size: 14px;
+	vertical-align: middle;
+	line-height: 1em;
+	color: var(--subtitle-color);
+}
+
 @font-face {
   font-family: "DIN";
   src: url("/fonts/DIN/DINCondensed-Bold.ttf");

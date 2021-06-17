@@ -17,7 +17,7 @@ body {
 }
 
 footer {
-  min-height: 40px;
+  min-height: 30px;
 }
 
 body {
@@ -27,7 +27,8 @@ body {
 
 footer {
   color: var(--subtitle-color);
-  margin-top: calc(100vh - 40px);
+  margin-top: calc(100vh - 30px);
+	font-size: 16px;
   text-align: center;
 }
 
